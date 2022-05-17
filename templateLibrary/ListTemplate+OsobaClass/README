@@ -1,0 +1,17 @@
+//############################################//
+//                                            //
+//    Jan Kwinta                17.05.2022    //
+//                                            //
+//    Projekt: C++ templatka listy            //
+//             wykorzystujaca klase Osoba     //
+//                                            //
+//    README                                  //
+//                                            //
+//############################################//
+
+
+================================================
+Kompilacja i uruchomienie: 
+
+g++ -Wall -o main.x main.cpp list.h osoba.h osoba.cpp
+./main.x
