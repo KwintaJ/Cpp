@@ -1,3 +1,13 @@
+//############################################//
+//                                            //
+//    Jan Kwinta                17.05.2022    //
+//                                            //
+//    Projekt: C++ templatka listy            //
+//                                            //
+//    main.cpp                                //
+//                                            //
+//############################################//
+
 #include <iostream>
 #include <utility>
 #include <algorithm>
