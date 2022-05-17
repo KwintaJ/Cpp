@@ -1,3 +1,13 @@
+//############################################//
+//                                            //
+//    Jan Kwinta                17.05.2022    //
+//                                            //
+//    Projekt: C++ klasa osoba                //
+//                                            //
+//    osoba.cpp                                //
+//                                            //
+//############################################//
+
 #include <string>
 #include <iostream>
 #include <istream>
