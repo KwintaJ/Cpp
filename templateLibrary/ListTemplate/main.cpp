@@ -1,6 +1,9 @@
 #include <iostream>
+#include <utility>
+#include <algorithm>
 
 #include "list.h"
+#include "osoba.h"
 
 using namespace std;
 
@@ -14,13 +17,15 @@ int main()
         liczby.push_back(element);
     }
 
-    cout << endl << "W kolejnosci:" << endl;
+    liczby.sort();
+
+    cout << endl << "Mniejsze - wieksze:" << endl;
     for(List<int>::iterator it = liczby.begin(); it != liczby.end(); ++it)
     {
         cout << *it << endl;
     }
 
-    cout << endl << "Na odwrot:" << endl;
+    cout << endl << "Wieksze - mniejsze:" << endl;
     for(List<int>::reverse_iterator it = liczby.reverse_begin(); it != liczby.reverse_end(); ++it)
     {
         cout << *it << endl;
