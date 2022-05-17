@@ -1,0 +1,8 @@
+Zuzanna          9 			50
+Dariusz         13			65
+Karol            2 			0
+Filip           18			1600
+Victor          44			4800
+Marysia         93			720
+Jozek           45			15000
+Maciek          23			2455
