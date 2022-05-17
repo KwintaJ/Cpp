@@ -1,7 +1,6 @@
 #include <iostream>
 
 #include "list.h"
-#include "osoba.h"
 
 using namespace std;
 
