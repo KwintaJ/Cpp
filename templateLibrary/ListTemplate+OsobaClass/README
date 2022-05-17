@@ -13,5 +13,5 @@
 ================================================
 Kompilacja i uruchomienie: 
 
-g++ -Wall -o main.x main.cpp list.h osoba.h osoba.cpp
+g++ -Wall -o main.x main.cpp list.h osoba.h
 ./main.x
