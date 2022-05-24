@@ -13,7 +13,6 @@
 #include <algorithm>
 
 #include "list.h"
-#include "osoba.h"
 
 using namespace std;
 
