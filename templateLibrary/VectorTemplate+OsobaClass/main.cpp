@@ -30,7 +30,6 @@ int main()
         exit(1);
     }
 
-
     Osoba genericPerson;
     while(genericPerson.read(fin))
         grupa.push_back(genericPerson);
