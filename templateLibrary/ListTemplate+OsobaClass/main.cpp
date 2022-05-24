@@ -3,6 +3,7 @@
 //    Jan Kwinta                17.05.2022    //
 //                                            //
 //    Projekt: C++ templatka listy            //
+//    z uzyciem klasy Osoba                   //
 //                                            //
 //    main.cpp                                //
 //                                            //
