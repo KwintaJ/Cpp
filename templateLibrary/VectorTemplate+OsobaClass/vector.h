@@ -3,7 +3,6 @@
 //    Jan Kwinta                24.05.2022    //
 //                                            //
 //    Projekt: C++ templatka vectora          //
-//                 korzystajaca z klasy Osoba //
 //                                            //
 //    vector.h                                //
 //                                            //
