@@ -1,0 +1,8 @@
+Zuzanna          9
+Dariusz         13
+Karol            2
+Filip           18
+Victor          44
+Marysia         93
+Jozek           45
+Maciek          23

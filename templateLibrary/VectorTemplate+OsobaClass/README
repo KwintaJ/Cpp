@@ -1,0 +1,17 @@
+//############################################//
+//                                            //
+//    Jan Kwinta                17.05.2022    //
+//                                            //
+//    Projekt: C++ templatka vectora          //
+//                 korzystajaca z klasy Osoba //
+//                                            //
+//    README                                  //
+//                                            //
+//############################################//
+
+
+================================================
+Kompilacja i uruchomienie: 
+
+g++ -Wall -o main.x main.cpp osoba.h vector.h
+./main.x
