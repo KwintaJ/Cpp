@@ -47,7 +47,7 @@ public:
         size_--;
         return array[size_];
     }
-    T operator[](int pos)
+    T &operator[](int pos)
     {
         return array[pos];
     }
