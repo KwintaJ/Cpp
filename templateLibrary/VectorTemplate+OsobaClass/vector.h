@@ -17,16 +17,22 @@ template<typename T>
 class Vector
 {
 private:
-    T array[100];
-    int size_ = 0;
+    T *array; // dynamic array
+    int max_size;
+    int size_;
 
 public:
     /* constructors */
-    Vector(): size_(0)
+    Vector()
     {
+        array = new T[8];
+        max_size = 8;
+        size_ = 0;
     }
-    Vector(T elements, int init_size)
+    Vector(T &elements, int init_size)
     {
+        max_size = init_size * 2;
+        array = new T[max_size];
         for(size_ = 0; size_ < init_size; size_++)
         {
             array[size_] = elements;
@@ -34,8 +40,20 @@ public:
     }
     
     /* methods */
-    void push_back(T element)
+    void push_back(T &element)
     {
+        if(size_ == max_size) // resize function
+        {
+            T *temporary_array = new T[2 * max_size];
+            
+            for(int i = 0; i < max_size; i++)
+                temporary_array[i] = array[i];
+               
+            delete[] array;
+            max_size *= 2;
+            array = temporary_array;
+        }
+        
         array[size_] = element;
         size_++;
     }

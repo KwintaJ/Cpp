@@ -6,3 +6,5 @@ Victor          44
 Marysia         93
 Jozek           45
 Maciek          23
+Marysia         14
+Jan		21
