@@ -84,6 +84,60 @@ public:
     {
         return &array[size_];
     }
+    
+    /* reverse iterator */
+    class reverse_iterator
+    {
+    private:
+        T* pos;
+        
+    public:
+        reverse_iterator(T* p): pos(p) 
+        {
+        }
+
+        reverse_iterator(): pos(0)
+        {
+        }
+
+        T &operator*()
+        { 
+            return *pos;
+        }
+
+        T *operator->()
+        {
+            return &pos;
+        }
+
+        reverse_iterator operator++(int)
+        {
+            pos--; 
+            return *this; 
+        }
+
+        reverse_iterator operator--(int)
+        {
+            pos--; 
+            return *this; 
+        }
+
+        bool operator!=(const reverse_iterator &X)
+        {
+            return this->pos != X.pos; 
+        }
+    };
+    
+    reverse_iterator rbegin()
+    { 
+        return &array[size_ - 1];
+    }
+    reverse_iterator rend()
+    {
+        reverse_iterator it = &array[0];
+        it--;
+        return it; 
+    }
 };
 
 #endif
