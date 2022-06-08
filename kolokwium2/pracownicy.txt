@@ -1,0 +1,12 @@
+Zuzanna          9 			50
+Dariusz         13			65
+Karol            2 			0
+Filip           18			1600
+Victor          44			4800
+Marysia         43		    	2455	
+Jozek           45			15000
+Maciek          23			2455
+Marysia		43			5500
+Filip		90			850
+Anastazja	33			3000
+Przemyslaw	40			17500
